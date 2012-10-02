@@ -1,0 +1,26 @@
+{
+    "name": "cullquery",
+    "version": "0.0.1",
+    "main": "./lib/cullquery",
+    "description": "jQuery powered DOM extensions to Cull.JS",
+    "author": { "name": "Christian Johansen" },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cjohansen/cullquery.git"
+    },
+    "homepage": "https://github.com/cjohansen/cullquery",
+    "scripts": {
+        "test": "./node_modules/buster/bin/buster-test"
+    },
+    "engines": {
+        "node": "~0.6"
+    },
+    "dependencies": {
+        "culljs": "~0.0.1",
+        "jquery": "~1.7"
+    },
+    "devDependencies": {
+        "buster": "~0.6",
+        "buster-lint": "~0"
+    }
+}
